@@ -1,0 +1,357 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background: url(../neogym_img/hero-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+    color: white;
+    background-color: rgb(231, 134, 6);
+}
+
+nav {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-around;
+    height: 8%;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li {
+    width: 150px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#btn {
+    height: 40px;
+    width: 130px;
+    text-transform: uppercase;
+    background: none;
+    border: 1px solid white;
+    color: white;
+}
+
+.speciality {
+    text-transform: uppercase;
+}
+
+.content>* {
+    margin: 15px;
+}
+
+.content {
+    padding-top: 30px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+   
+    width: 100%;
+    flex-direction: column;
+}
+
+.content p {
+    width: 70%;
+    text-align: center;
+}
+
+.contain {
+    color: white;
+    height: 500px;
+    width: 100%;
+    background: url(../neogym_img/us-bg.jpg);
+    background-size: cover;
+}
+
+.contain .title {
+    text-align: center;
+    padding: 80px 20px;
+    text-transform: uppercase;
+}
+
+.contain section .card {
+    width: 23%;
+    margin: 10px;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.contain section .card .img {
+    height: 60%;
+}
+
+.pro {
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+.features {
+padding-top: 40px;
+    color: white;
+    height: 350px;
+    width: 100%;
+    background: url(../neogym_img/healthy-bg.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.feature-content .text {
+    text-transform: uppercase;
+}
+
+.info p {
+    padding: 12px 20px;
+}
+
+
+aside {
+    background: url(../neogym_img/trainer-bg.jpg);
+    height: 700px;
+    width: 100%;
+    color: white;
+}
+
+.trainers-info{
+    padding-top: 70px;
+}
+
+
+.cards {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.cards img {
+    border-radius: 20px;
+    padding: 10px 0px;
+}
+
+.profile {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 23px 0px;
+}
+
+.info h3 {
+    text-align: center;
+}
+
+.contact {
+    color: white;
+    width: 100%;
+    height: 700px;
+    background-color: rgb(48, 0, 63);
+}
+
+.contact-img {
+    width: 45%;
+}
+
+.form {
+    width: 45%;
+    margin: 30px;
+}
+
+.contact-us {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+::placeholder {
+    padding: 9px;
+    text-transform: uppercase;
+}
+
+.input {
+    width: 346px;
+    height: 50px;
+    margin: 20px 0px;
+    background-color: white;
+    border: none;
+}
+
+
+#send {
+    text-transform: uppercase;
+    width: 116px;
+    height: 45px;
+    border: none;
+    background-color: deeppink;
+}
+
+footer {
+    color: white;
+    height: 233px;
+    width: 100%;
+    background-color: rgb(3, 3, 66);
+  
+}
+.location>*{
+    margin: 10px;
+}
+.location{
+  padding: 55px;
+    width: 30%;
+}
+
+.all {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    header {
+        height: auto;
+        width: 100%;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .content {
+        height: auto;
+    }
+
+    .content p {
+        width: 90%;
+    }
+
+    .contain {
+        height: auto;
+    }
+
+    .contain section .card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .contain section .card .img {
+        height: auto;
+        width: 100%;
+    }
+
+    .description {
+        height: auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    .features {
+        height: auto;
+        width: 100%;
+    }
+
+    .text {
+        margin: 10px;
+    }
+
+    .info {
+        text-align: justify;
+    }
+
+    .info-btn {
+        padding-bottom: 12px;
+
+    }
+
+    aside {
+        height: auto;
+        width: 100%;
+    }
+
+    .cards {
+        width: 100%;
+    }
+
+    .cards img {
+        width: 100%;
+    }
+
+    .contact {
+        height: auto;
+        width: 100%;
+    }
+
+    .contact-img {
+
+        width: 100%;
+    }
+
+    .form,
+    .input,
+    textarea {
+        width: 100%;
+    }
+
+    .input {
+        width: 100%;
+    }
+
+    textarea {
+        width: 100%;
+    }
+    footer{
+        height: auto;
+    }
+
+    .all {
+        display: flex;
+      width: auto;
+        flex-wrap: wrap;
+    }
+    .location{
+        padding: 23px;
+        width: 100%;
+    }
+}
+
+
+@media (max-width:999px) {
+    .contain {
+        height: auto;
+    }
+
+    aside {
+        height: auto;
+    }
+
+}
